@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
 
+        // Added Toast Message
         Toast.makeText(this,"Hi",Toast.LENGTH_SHORT).show()
     }
 }
